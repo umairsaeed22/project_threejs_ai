@@ -54,7 +54,7 @@
       // Call our backend to generate an AI image
       setgeneratingImg(true);
   
-      const response = await fetch('http://localhost:8080/api/v1/dalle', {
+      const response = await fetch('https://project-three-js-um6p.onrender.com/api/v1/dalle', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
