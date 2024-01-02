@@ -71,6 +71,7 @@
   
     } catch (error) {
       console.error(error);
+      console.error(error);
       alert('400 Billing hard limit has been reached');
     } finally {
       setgeneratingImg(false);
